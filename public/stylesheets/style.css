@@ -1,4 +1,3 @@
-/*https://codepen.io/ingojoseph/pen/KnpqI*/
 
 h1 {
   font-family: Courier, monospace;
@@ -9,6 +8,9 @@ h1 {
   overflow: hidden;
   -webkit-animation: typing 6s steps(34, end),
     blink 0.4s step-end infinite alternate;
+}
+.text-area-mk {
+  width: 50px;
 }
 
 @-webkit-keyframes typing {
