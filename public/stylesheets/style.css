@@ -12,6 +12,9 @@ h1 {
 .text-area-mk {
   width: 50px;
 }
+.column {
+  display: flex
+}
 
 @-webkit-keyframes typing {
   0% {
