@@ -1,0 +1,23 @@
+/*https://codepen.io/ingojoseph/pen/KnpqI*/
+
+h1 {
+  font-family: Courier, monospace;
+  border-right: 3px solid;
+  width: 26ch; /* Number of chars */
+  margin: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: typing 6s steps(34, end),
+    blink 0.4s step-end infinite alternate;
+}
+
+@-webkit-keyframes typing {
+  0% {
+    width: 0;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}

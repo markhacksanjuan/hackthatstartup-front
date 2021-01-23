@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:title" content="Perseo" />
+    <meta
+      property="og:image"
+      content="ruta de la imagen que quieres que salga al compartir el link"
+    />
+    <meta property="og:description" content="descripcion web perseo" />
+    <meta property="og:url" content="ruta donde lo cuelgues en heroku" />
+    <title>Perseo Human Resources</title>
+    <!-- Google Analytics -->
+    <script>
+      window.ga =
+        window.ga ||
+        function () {
+          (ga.q = ga.q || []).push(arguments);
+        };
+      ga.l = +new Date();
+      ga("create", "UA-XXXXX-Y", "auto");
+      ga("send", "pageview");
+    </script>
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
+    <!-- End Google Analytics -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="/public/stylesheets/style.css" />
+  </head>
+
+  <body>
+    <section class="hero is-black is-large is-bold">
+      <div class="hero-head">
+        <nav class="navbar">
+          <div class="container">
+            <div class="navbar-brand">
+              <a class="navbar-item">
+                <img src="./public/images/perseo_logo.svg" alt="Logo" />
+              </a>
+              <span class="navbar-burger" data-target="navbarMenuHeroB">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </div>
+            <div id="navbarMenuHeroB" class="navbar-menu">
+              <div class="navbar-end">
+                <a class="navbar-item is-active"> Home </a>
+                <a class="navbar-item"> Examples </a>
+                <a class="navbar-item"> Documentation </a>
+                <span class="navbar-item">
+                  <a class="button is-info is-inverted">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Download</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <div class="columns">
+            <div class="column">
+              <h1 class="is-size-1 is-size-6-mobile has-text-success">
+                Find the right Developer/>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-foot">
+        <nav class="tabs">
+          <div class="container">
+            <ul>
+              <li>
+                <p>Follow us on</p>
+              </li>
+              <li>
+                <a href="#"
+                  ><span class="icon is-medium">
+                    <i class="fab fa-facebook-square"></i> </span
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><span class="icon is-medium">
+                    <i class="fab fa-twitter"></i> </span
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><span class="icon is-medium">
+                    <i class="fab fa-instagram-square"></i></span
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="/javascripts/navbarDropDown.js"></script>
+  </body>
+</html>
